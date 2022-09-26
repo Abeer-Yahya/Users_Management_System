@@ -1,0 +1,58 @@
+body {
+  background-color: #f8f8f8;
+}
+.hero-text-box {
+  max-width: 40rem;
+  text-align: center;
+  padding: 6.2rem 0 6.2rem 0;
+  margin: 0 auto;
+  margin-top: 6%;
+  background-image: linear-gradient(to right bottom, #a7cdef, #6dabe4);
+  border-radius: 1.5rem;
+}
+.hero-description {
+  color: #213344;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 1.6;
+  margin-bottom: 1.8rem;
+}
+
+.heading-primary {
+  font-weight: 700;
+  color: #0b1117;
+  letter-spacing: -0.5px;
+  font-size: 4.8rem;
+  line-height: 1.05;
+  margin-bottom: 1.8rem;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+
+  transition: all 0.3s;
+}
+
+.btn--full:link,
+.btn--full:visited {
+  background-color: #416789;
+  color: #d3e6f7;
+}
+
+.btn--full:hover,
+.btn--full:active {
+  background-color: #a7cdef;
+  color: #213344;
+}
